@@ -13,6 +13,15 @@ namespace Presentacion {
     public partial class wfProductoActualizar {
         
         /// <summary>
+        /// Control rfvCodigo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCodigo;
+        
+        /// <summary>
         /// Control txtCodigoProducto.
         /// </summary>
         /// <remarks>
@@ -64,7 +73,7 @@ namespace Presentacion {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CustomValidator vsResumenErrores;
+        protected global::System.Web.UI.WebControls.ValidationSummary vsResumenErrores;
         
         /// <summary>
         /// Control lblResultado.

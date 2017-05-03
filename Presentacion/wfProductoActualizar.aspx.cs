@@ -12,8 +12,45 @@ namespace Presentacion
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            btnConfirmar.Enabled = false;
+
         }
-        protected void btnConfirmar_Click(object sender, EventArgs e)
+
+        /*protected void btnConfirmar_Click(object sender, EventArgs e)
+        {
+
+          
+
+        }
+
+        protected void btnBuscar_Click(object sender, EventArgs e)
+        {
+
+           
+
+        }*/
+
+        public void limpiarFormulario()
+        {
+
+            txtCodigoProducto.Text = string.Empty;
+            txtDescripcion.Text = string.Empty;
+            txtExistencia.Text = string.Empty;
+            txtPrecioUnitario.Text = string.Empty;
+            btnConfirmar.Enabled = false;
+            lblResultado.Text = string.Empty;
+
+
+        } // fin del método limpiarFormulario
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+            
+
+        }
+
+        protected void btnConfirmar_Click1(object sender, EventArgs e)
         {
 
             Negocio.productoNegocio dc = null;
@@ -48,11 +85,11 @@ namespace Presentacion
                 cvErrores.IsValid = false;
                 cvErrores.ErrorMessage = "Ocurrió un error al intentar actualizar la información.";
 
-            }
+            } // fin del try
 
-        }
+        } // fin del btnConfirmar
 
-        protected void btnBuscar_Click(object sender, EventArgs e)
+        protected void btnBuscar_Click1(object sender, EventArgs e)
         {
 
             Negocio.productoNegocio dc = null;
@@ -71,6 +108,8 @@ namespace Presentacion
                 txtExistencia.Text = producto.Existencia.ToString();
                 txtPrecioUnitario.Text = producto.PrecioUnitario.ToString();
 
+                btnConfirmar.Enabled = true;
+
             }
             catch (Exception)
             {
@@ -78,29 +117,14 @@ namespace Presentacion
                 cvErrores.IsValid = false;
                 cvErrores.ErrorMessage = "Ocurrió un error al recuperar los datos. Por favor verifique.";
 
-            }
+            } // fin del try
 
-        }
+        } // fin del btnBuscar
 
-        public void limpiarFormulario()
-        {
-
-            txtCodigoProducto.Text = string.Empty;
-            txtDescripcion.Text = string.Empty;
-            txtExistencia.Text = string.Empty;
-            txtPrecioUnitario.Text = string.Empty;
-
-        } // fin del método limpiarFormulario
-
-        protected void btnCancelar_Click(object sender, EventArgs e)
+        protected void btnCancelar_Click1(object sender, EventArgs e)
         {
 
             limpiarFormulario();
-
-        }
-
-        protected void btnConfirmar_Click1(object sender, EventArgs e)
-        {
 
         }
     } // fin de la clase wfProductoActualizar

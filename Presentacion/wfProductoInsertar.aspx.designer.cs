@@ -13,15 +13,6 @@ namespace Presentacion {
     public partial class wfProductoInsertar {
         
         /// <summary>
-        /// Control txtDescripcion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
-        
-        /// <summary>
         /// Control rfvDescripcion.
         /// </summary>
         /// <remarks>
@@ -31,13 +22,13 @@ namespace Presentacion {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDescripcion;
         
         /// <summary>
-        /// Control txtExistencia.
+        /// Control txtDescripcion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtExistencia;
+        protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
         
         /// <summary>
         /// Control rfvExistencia.
@@ -49,13 +40,13 @@ namespace Presentacion {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvExistencia;
         
         /// <summary>
-        /// Control txtPrecio.
+        /// Control txtExistencia.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPrecio;
+        protected global::System.Web.UI.WebControls.TextBox txtExistencia;
         
         /// <summary>
         /// Control rfvPrecio.
@@ -67,6 +58,15 @@ namespace Presentacion {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPrecio;
         
         /// <summary>
+        /// Control txtPrecio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPrecio;
+        
+        /// <summary>
         /// Control cvErrores.
         /// </summary>
         /// <remarks>
@@ -76,13 +76,13 @@ namespace Presentacion {
         protected global::System.Web.UI.WebControls.CustomValidator cvErrores;
         
         /// <summary>
-        /// Control vsErrores.
+        /// Control lblResultado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary vsErrores;
+        protected global::System.Web.UI.WebControls.Label lblResultado;
         
         /// <summary>
         /// Control btnConfirmar.
@@ -101,14 +101,5 @@ namespace Presentacion {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCancelar;
-        
-        /// <summary>
-        /// Control lblResultado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultado;
     }
 }
