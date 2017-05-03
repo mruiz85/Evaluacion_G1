@@ -33,6 +33,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -213,6 +214,9 @@
     </Content>
     <Content Include="wfBase.aspx" />
     <Content Include="wfGrid.aspx" />
+    <Content Include="wfProductoActualizar.aspx" />
+    <Content Include="wfProductoEliminar.aspx" />
+    <Content Include="wfProductoInsertar.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -435,6 +439,27 @@
     <Compile Include="wfGrid.aspx.designer.cs">
       <DependentUpon>wfGrid.aspx</DependentUpon>
     </Compile>
+    <Compile Include="wfProductoActualizar.aspx.cs">
+      <DependentUpon>wfProductoActualizar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfProductoActualizar.aspx.designer.cs">
+      <DependentUpon>wfProductoActualizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfProductoEliminar.aspx.cs">
+      <DependentUpon>wfProductoEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfProductoEliminar.aspx.designer.cs">
+      <DependentUpon>wfProductoEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfProductoInsertar.aspx.cs">
+      <DependentUpon>wfProductoInsertar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfProductoInsertar.aspx.designer.cs">
+      <DependentUpon>wfProductoInsertar.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -468,7 +493,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52441</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52441/</IISUrl>
+          <IISUrl>http://localhost:4356/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
