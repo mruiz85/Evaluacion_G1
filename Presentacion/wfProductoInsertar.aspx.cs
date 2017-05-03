@@ -56,7 +56,8 @@ namespace Presentacion
 
                 dc.insertarProductoNegocio(producto);
 
-                lblResultado.Text = "La información se guardó correctamente.";
+                lblResultado.InnerText = "La información se guardó correctamente.";
+                
                 limpiarFormulario();
 
             }

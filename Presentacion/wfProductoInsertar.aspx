@@ -50,8 +50,8 @@
                 <div class="col-lg-3">
                     <div class="form-group">
 
-                        <asp:Label ID="lblResultado" Font-Bold="true" ForeColor="DarkBlue" class="form-control" runat="server"></asp:Label>
-
+                        <label id="lblResultado" runat="server" class="color:Blue;"></label> 
+                        
                     </div>
                 </div>                 
                    

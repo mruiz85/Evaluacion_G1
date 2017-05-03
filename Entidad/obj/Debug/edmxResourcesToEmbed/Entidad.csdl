@@ -10,8 +10,8 @@
     <Property Name="Direccion" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="FechaProceso" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="UsuarioProceso" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Facturas" Relationship="Self.FK_Facturas_Clientes" FromRole="Clientes" ToRole="Facturas" />
     <Property Name="Estado" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Facturas" Relationship="Self.FK_Facturas_Clientes" FromRole="Clientes" ToRole="Facturas" />
   </EntityType>
   <EntityType Name="Empleados">
     <Key>
@@ -65,8 +65,8 @@
     <Property Name="PrecioUnitario" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
     <Property Name="FechaProceso" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="UsuarioProceso" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Factura_Detalle" Relationship="Self.FK_Factura_Detalle_Productos" FromRole="Productos" ToRole="Factura_Detalle" />
     <Property Name="Estado" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Factura_Detalle" Relationship="Self.FK_Factura_Detalle_Productos" FromRole="Productos" ToRole="Factura_Detalle" />
   </EntityType>
   <EntityType Name="Usuarios">
     <Key>
