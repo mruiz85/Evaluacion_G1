@@ -10,3 +10,15 @@ C:\EvaGrupo1\Sistema_Evaluacion\Entidad\bin\Debug\es\EntityFramework.SqlServer.r
 C:\EvaGrupo1\Sistema_Evaluacion\Entidad\obj\Debug\Entidad.csprojResolveAssemblyReference.cache
 C:\EvaGrupo1\Sistema_Evaluacion\Entidad\obj\Debug\Entidad.dll
 C:\EvaGrupo1\Sistema_Evaluacion\Entidad\obj\Debug\Entidad.pdb
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\EntityFramework.dll
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\Entidad.dll.config
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\Entidad.dll
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\Entidad.pdb
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\EntityFramework.SqlServer.dll
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\EntityFramework.xml
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\EntityFramework.SqlServer.xml
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\es\EntityFramework.resources.dll
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\obj\Debug\Entidad.csprojResolveAssemblyReference.cache
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\obj\Debug\Entidad.dll
+D:\Git\ProyectoGit\Evaluacion_G1\Entidad\obj\Debug\Entidad.pdb

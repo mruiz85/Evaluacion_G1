@@ -14,11 +14,14 @@ namespace Entidad
     
     public partial class Empleados
     {
+        public int estado;
+
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Cedula { get; set; }
         public string Direccion { get; set; }
         public System.DateTime FechaProceso { get; set; }
         public int UsuarioProceso { get; set; }
+        public int Estado { get; set; }
     }
 }
